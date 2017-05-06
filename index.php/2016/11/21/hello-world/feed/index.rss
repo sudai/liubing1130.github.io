@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: coach handbag</title>
+	<atom:link href="http://localhost/zhaoyan/index.php/2016/11/21/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>http://localhost/zhaoyan/index.php/2016/11/21/hello-world/</link>
+	<description>美国代购</description>
+	<lastBuildDate>Tue, 28 Mar 2017 20:45:35 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.6.1</generator>
+	<item>
+		<title>By: sudai</title>
+		<link>http://localhost/zhaoyan/index.php/2016/11/21/hello-world/#comment-2</link>
+		<dc:creator><![CDATA[sudai]]></dc:creator>
+		<pubDate>Tue, 28 Mar 2017 20:45:35 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost/wordpress/?p=1#comment-2</guid>
+		<description><![CDATA[first comment]]></description>
+		<content:encoded><![CDATA[<p>first comment</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
