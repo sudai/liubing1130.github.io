@@ -66,7 +66,7 @@ function keyListener(e){
     //  当按下回车键，执行我们的代码  
     if(e.keyCode == 13){   
   
-        getNum();
+        alert("aaa"); 
   
     }   
   
