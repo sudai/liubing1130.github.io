@@ -53,8 +53,8 @@ function getNum(){
 	}
 
 	if(ans.length>=1){
-		document.getElementById("name").innerHTML = "单号： "+ans+"<br>天马迅达快递近期启用了新网站<br>
-		以数字开头的新单号请复制单号后点击<p style=\"color:red;\"><a href='http://www.worldcps.com'><u>http://www.worldcps.com</u></a></p>查询
+		document.getElementById("name").innerHTML = ans+"<br>天马迅达快递近期启用了新网站<br>
+		以数字开头的新单号请复制单号后点击<p style=\"color:green;\"><a href='http://www.worldcps.com'><u>http://www.worldcps.com</u></a></p>查询
 		<br>以“TM”开头的旧单号请复制单号后点击<p style=\"color:blue;\"><a href='http://www.expresstochina.com/'><u>http://www.expresstochina.com</u></a></p>查询";
 	}
 	else{
