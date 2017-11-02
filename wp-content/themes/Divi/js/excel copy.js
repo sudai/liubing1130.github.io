@@ -51,28 +51,14 @@ function getNum(){
 			j++;
 		}
 	}
-	if(ans.length==0){
-		document.getElementById("name").innerHTML = "没有找到对应单号";
+
+	if(ans.length>=1){
+		document.getElementById("name").innerHTML ="单号： "+ ans + 
+		
+		"<br><br>新增飞扬快递<br><br>以GC开头的飞扬单号请复制单号后点击<p style=\"color:orange;\"><a href='http://express.shipgce.com/'><u>http://express.shipgce.com</u></a></p><br><br>天马迅达快递近期启用了新网站<br><br>以数字开头的新单号请复制单号后点击<p style=\"color:lightgreen;\"><a href='http://www.worldcps.com'><u>http://www.worldcps.com</u></a></p><br><br>以TM开头的旧单号请复制单号后点击<p style=\"color:blue;\"><a href='http://www.expresstochina.com/'><u>http://www.expresstochina.com</u></a></p><br><br>";
 	}
 	else{
-		document.getElementById("name").innerHTML ="单号： "+ ans;
-		for(i=0; i<ans.length; i++){
-			var n = ans[i].indexOf("GC");
-			var m = ans[i].indexOf("TM");
-			if(n>=0){
-				document.getElementById("feiyang").innerHTML ="<br>以GC开头的飞扬快递单号请复制单号后点击<p style=\"color:orange;\"><a href='http://express.shipgce.com/'><u>http://express.shipgce.com</u></a></p>";
-			}
-			
-			if(m>=0){
-				document.getElementById("tianma_old").innerHTML ="<br>以TM开头的天马快递旧单号请复制单号后点击<p style=\"color:blue;\"><a href='http://www.expresstochina.com/'><u>http://www.expresstochina.com</u></a></p>";
-			}
-			if(n == -1 && m == -1){
-				document.getElementById("tianma").innerHTML ="<br>以数字开头的天马快递新单号请复制单号后点击<p style=\"color:lightgreen;\"><a href='http://www.worldcps.com'><u>http://www.worldcps.com</u></a></p>";
-			}
-
-		}
-		
+		document.getElementById("name").innerHTML = "没有找到对应单号";
 	}
-	
 }
 
